@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 0.5rem;
+    background-color: coral;
+}
+
+.capt a{
+    color: black;
+    /* text-decoration: none; */
+}
+
+.captl a{
+    color: darkcyan;
+}
+
+.main{
+    font-size: 50px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAF6E3;
+    background-image: url();
+}
+
+.main h1{
+    text-align: center;
+}
+
+.main p{
+    font-size: 30px;
+}
+
+
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    padding: 10rem;
+    height: 20vh;
+}
+/* 
+.about p{
+
+    justify-content: center;
+
+} */
+
+.profile{
+    width: 100%;
+    height: 70vh;
+    /* background-color: crimson; */
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    border: black solid 1px;
+}
+
+.card img{
+    justify-items: center;
+    /* border: black solid 1px; */
+    width: 20rem;
+    height: 30rem;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.card .capt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card .captl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
